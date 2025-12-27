@@ -3,11 +3,13 @@
     <declare-styleable name="NeumorphismView">
         <attr name="cornerRadius" format="dimension"/>
         <attr name="isConcave" format="boolean"/>
+        <attr name="mainColor" format="color"/>
         <attr name="lightDirection">
             <enum name="topLeft" value="0"/>
             <enum name="topRight" value="1"/>
             <enum name="bottomLeft" value="2"/>
             <enum name="bottomRight" value="3"/>
         </attr>
+        <attr name="elevationFactor" format="float"/>
     </declare-styleable>
 </resources>
