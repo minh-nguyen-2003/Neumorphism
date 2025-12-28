@@ -78,7 +78,7 @@ class NeumorphismDarkLayout @JvmOverloads constructor(
 
         // Vẽ shadow light
         lightPaint.color = mainColor
-        lightPaint.setShadowLayer(shadowRadius, lx, ly, adjustColorBrightness(mainColor, 1.5f))
+        lightPaint.setShadowLayer(shadowRadius, lx, ly, adjustColorBrightness(mainColor, 2f))
         canvas.drawRoundRect(rect, radius, radius, lightPaint)
 
         // Vẽ background chính

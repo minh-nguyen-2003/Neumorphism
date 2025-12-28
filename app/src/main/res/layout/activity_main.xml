@@ -25,7 +25,7 @@
         android:layout_height="100dp"
         app:cornerRadius="10dp"
         app:isConcave="true"
-        app:elevationFactor="1.2"
+        app:elevationFactor="1"
         app:mainColor="#2A2A2A"
         app:lightDirection="bottomRight"
         android:padding="20dp"
