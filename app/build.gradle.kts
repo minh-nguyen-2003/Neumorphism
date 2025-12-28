@@ -5,9 +5,7 @@ plugins {
 
 android {
     namespace = "vn.minh_nguyen.vkey.library.neumorphic"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "vn.minh_nguyen.vkey.library.neumorphic"

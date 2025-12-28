@@ -4,29 +4,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0C987">
+    android:background="#2A2A2A">
 
-    <vn.minh_nguyen.vkey.library.neumorphic.NeumorphismTextView
+    <vn.minh_nguyen.vkey.library.neumorphic.NeumorphismDarkTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hellofds"
         android:textSize="50sp"
         app:isConcave="false"
-        app:mainColor="#F0C987"
+        app:mainColor="#2A2A2A"
         android:layout_marginTop="100dp"
-        app:elevationFactor="1.5"
+        app:elevationFactor="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:lightDirection="bottomRight" />
+        app:lightDirection="topLeft" />
 
-    <vn.minh_nguyen.vkey.library.neumorphic.NeumorphismLayout
+    <vn.minh_nguyen.vkey.library.neumorphic.NeumorphismDarkLayout
         android:layout_width="200dp"
         android:layout_height="100dp"
         app:cornerRadius="10dp"
         app:isConcave="true"
-        app:elevationFactor="0.5"
-        app:mainColor="#F0C987"
+        app:elevationFactor="1.2"
+        app:mainColor="#2A2A2A"
         app:lightDirection="bottomRight"
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,6 +38,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="fgdg"/>
-    </vn.minh_nguyen.vkey.library.neumorphic.NeumorphismLayout>
+    </vn.minh_nguyen.vkey.library.neumorphic.NeumorphismDarkLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
